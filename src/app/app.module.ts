@@ -42,6 +42,9 @@ import { GraphicDesignComponent } from "./graphic-design/graphic-design.componen
     BrowserModule,
     HttpClientModule,
     ReactiveFormsModule,
+    AlertModule.forRoot(),
+    AccordionModule.forRoot(),
+    OffcanvasModule.forRoot(),
     RouterModule.forRoot([
       { path: "", component: ProductListComponent },
       { path: "products/:productId", component: ProductDetailsComponent },
